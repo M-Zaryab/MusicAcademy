@@ -15,7 +15,7 @@ interface Course {
   isFeatured: boolean;
 }
 
-const FeaturedCourses = () => {
+const UpcommingWebinars = () => {
   const featuredCourses = courseData.courses.filter(
     (course: Course) => course.isFeatured
   );
@@ -24,9 +24,9 @@ const FeaturedCourses = () => {
     <main className="bg-gray-900 py-12">
       {/* Heading */}
       <div className="text-center">
-        <h2 className="font-bold text-teal-600">FEATURED COURSES</h2>
+        <h2 className="font-bold text-teal-600">FEATURED WEBINARS</h2>
         <p className="text-2xl md:text-3xl mt-3 font-extrabold">
-          Learn With the Best
+          Enhance Your Musical Journey
         </p>
       </div>
 
@@ -70,4 +70,4 @@ const FeaturedCourses = () => {
   );
 };
 
-export default FeaturedCourses;
+export default UpcommingWebinars;
