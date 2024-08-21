@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Mastering the Guitar",
+      "slug": "mastering-the-guitar",
+      "description": "Learn to play the guitar like a pro with this comprehensive course covering everything from basic chords to advanced solos.",
+      "price": 199.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "https://example.com/images/mastering-the-guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your musical journey with this beginner-friendly course that teaches the fundamentals of piano playing.",
+      "price": 149.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "https://example.com/images/piano-for-beginners.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Advanced Violin Techniques",
+      "slug": "advanced-violin-techniques",
+      "description": "Take your violin skills to the next level with advanced techniques taught by a professional violinist.",
+      "price": 249.99,
+      "instructor": "Emily Davis",
+      "isFeatured": true,
+      "image": "https://example.com/images/advanced-violin-techniques.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Singing Mastery",
+      "slug": "singing-mastery",
+      "description": "Unlock your vocal potential with this course designed to improve your singing skills, no matter your experience level.",
+      "price": 129.99,
+      "instructor": "Michael Brown",
+      "isFeatured": false,
+      "image": "https://example.com/images/singing-mastery.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "A must-have course for any musician, covering the essential concepts of music theory in a simple and easy-to-understand way.",
+      "price": 99.99,
+      "instructor": "Laura Wilson",
+      "isFeatured": true,
+      "image": "https://example.com/images/music-theory-essentials.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Jazz Improvisation",
+      "slug": "jazz-improvisation",
+      "description": "Explore the art of jazz improvisation with this course, perfect for intermediate and advanced musicians looking to enhance their jazz skills.",
+      "price": 179.99,
+      "instructor": "Paul Thompson",
+      "isFeatured": false,
+      "image": "https://example.com/images/jazz-improvisation.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Learn the ins and outs of electronic music production using industry-standard software and techniques.",
+      "price": 299.99,
+      "instructor": "Sarah Johnson",
+      "isFeatured": true,
+      "image": "https://example.com/images/electronic-music-production.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Drum Kit Essentials",
+      "slug": "drum-kit-essentials",
+      "description": "Master the basics of drumming with this course, designed to teach you the essential techniques and rhythms.",
+      "price": 159.99,
+      "instructor": "Chris Lee",
+      "isFeatured": false,
+      "image": "https://example.com/images/drum-kit-essentials.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Composing for Film and TV",
+      "slug": "composing-for-film-and-tv",
+      "description": "Discover the secrets of composing music for film and television with this course led by an industry professional.",
+      "price": 349.99,
+      "instructor": "David Garcia",
+      "isFeatured": true,
+      "image": "https://example.com/images/composing-for-film-and-tv.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Blues Harmonica Mastery",
+      "slug": "blues-harmonica-mastery",
+      "description": "Dive into the world of blues harmonica with this course that covers everything from basic riffs to advanced techniques.",
+      "price": 119.99,
+      "instructor": "Linda Martinez",
+      "isFeatured": false,
+      "image": "https://example.com/images/blues-harmonica-mastery.jpg"
+    }
+  ]
+}
