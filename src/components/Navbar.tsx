@@ -19,15 +19,17 @@ const Navbar = ({ className }: { className?: string }) => {
           ></MenuItem>
         </Link>
 
-        <MenuItem setActive={setActive} active={active} item="Our Courses">
-          <div className="text-sm flex flex-col space-y-4">
-            <HoveredLink href="/courses">All Courses</HoveredLink>
-            <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
-            <HoveredLink href="/courses">Advance Composition</HoveredLink>
-            <HoveredLink href="/courses">Songwriting</HoveredLink>
-            <HoveredLink href="/courses">Music Production</HoveredLink>
-          </div>
-        </MenuItem>
+        <div className="px-2">
+          <MenuItem setActive={setActive} active={active} item="Our Courses">
+            <div className="text-sm flex flex-col space-y-4">
+              <HoveredLink href="/courses">All Courses</HoveredLink>
+              <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
+              <HoveredLink href="/courses">Advance Composition</HoveredLink>
+              <HoveredLink href="/courses">Songwriting</HoveredLink>
+              <HoveredLink href="/courses">Music Production</HoveredLink>
+            </div>
+          </MenuItem>
+        </div>
 
         <Link href={"/contact"}>
           <MenuItem
